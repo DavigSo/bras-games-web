@@ -1,0 +1,82 @@
+POST http://localhost:8000/api/games
+Content-Type: application/json
+
+{
+  "cod": 1,
+  "item": "Call of Dutty",
+  "amount": 5,
+  "value": 30,
+  "urlImg": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.callofduty.com%2Fbr%2Fpt%2Fblog%2F2023%2F08%2Fcall-of-duty-modern-warfare-III-worldwide-full-reveal-announcement&psig=AOvVaw0brVTymRxj7EZoTJkhm4gD&ust=1701718166198000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLjuzqiA9IIDFQAAAAAdAAAAABAE"
+}
+
+###
+GET http://localhost:8000/api/games
+
+###
+GET http://localhost:8000/api/gameRoutes/656cd7408a3ddc6dda6ff6c5
+
+###
+DELETE http://localhost:8000/api/games/656cd7408a3ddc6dda6ff6c5
+
+###
+PUT http://localhost:8000/api/games/656cd3c5d5050e43c567bf61
+Content-Type: application/json
+
+{
+  "cod": 2,
+  "item": "Grand theft auto",
+  "amount": 5,
+  "value": 30,
+  "urlImg": "https://upload.wikimedia.org/wikipedia/pt/8/80/Grand_Theft_Auto_V_capa.png"
+}
+
+###
+POST http://localhost:8000/api/users
+Content-Type: application/json
+
+{
+  "username": "mateus",
+  "email": "mateus@gmail.com",
+  "password": "123456"
+}
+
+###
+POST http://localhost:8000/api/login
+Content-Type: application/json
+{
+  "email": "bianca", 
+  "password": "123"
+
+}
+
+###
+PUT http://localhost:8000/api/users/6573666fac98fb14fdefbf12
+Content-Type: application/json
+
+{
+  "username": "vieri"
+}
+
+###
+GET http://localhost:8000/api/cart/getCartDetails/656fc32c4a6e04a5e2b9abe7
+
+###
+POST http://localhost:8000/api/order/finalizeCurrentOrder/656fc32c4a6e04a5e2b9abe5
+
+###
+GET http://localhost:8000/api/order/
+
+###
+POST http://localhost:8000/api/add/
+Content-Type: application/json
+
+{
+  "userId": "656fc32c4a6e04a5e2b9abe5",
+  "gameId": "656cd3c5d5050e43c567bf61"
+}
+
+###
+GET http://localhost:8000/api/list/656fc32c4a6e04a5e2b9abe5
+
+###
+GET http://localhost:8000/api/users/656fc10e46432d9439d14bdb
