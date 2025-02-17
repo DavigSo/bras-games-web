@@ -112,18 +112,6 @@ Bras Games Web é uma aplicação web full-stack desenvolvida para a venda de jo
 
 ---
 
-## Contribuição
-
-Contribuições são bem-vindas! Se desejar melhorar ou estender os recursos do projeto, sinta-se à vontade para abrir issues ou enviar pull requests.
-
----
-
-## Licença
-
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
-
----
-
 ## Contato
 
 Para dúvidas ou mais informações, entre em contato:
